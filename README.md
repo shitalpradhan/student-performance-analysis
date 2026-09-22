@@ -60,15 +60,21 @@ explicitly excluded to avoid target leakage.
 
 ## Project Structure
 
-| File / Folder | Purpose |
+| File | Purpose |
 |---|---|
 | `student_data.csv` | Original dataset (read-only) |
 | `student_performance_analysis.ipynb` | Main analysis notebook |
 | `requirements.txt` | Reproducible environment specification |
 | `README.md` | Project overview and setup guide (this file) |
 | `report.md` | Written project report |
-| `figures/` | Chart PNGs saved by the notebook |
 | `student-performance-plan.md` | Approved project plan |
+| `chart1_g3_distribution.png` | Chart — Distribution of Final Grade (G3) |
+| `chart2_failures_vs_g3.png` | Chart — G3 by Number of Prior Failures |
+| `chart3_studytime_vs_g3.png` | Chart — G3 by Weekly Study Time |
+| `chart4_medu_vs_g3.png` | Chart — Mean G3 by Maternal Education Level |
+| `chart5_absences_vs_g3.png` | Chart — Absences vs. Final Grade (G3) |
+| `chart6_correlation_heatmap.png` | Chart — Correlation Heatmap (Reference) |
+| `chart_ml_feature_importances.png` | Chart — Top 15 Feature Importances (ML Model) |
 
 ---
 
