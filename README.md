@@ -63,7 +63,7 @@ explicitly excluded to avoid target leakage.
 | File | Purpose |
 |---|---|
 | `student_data.csv` | Original dataset (read-only) |
-| `student_performance_analysis.ipynb` | Main analysis notebook |
+| `ShitalPradhan_StudentPerformanceAnalysis.ipynb` | Main analysis notebook |
 | `requirements.txt` | Reproducible environment specification |
 | `README.md` | Project overview and setup guide (this file) |
 | `report.md` | Written project report |
