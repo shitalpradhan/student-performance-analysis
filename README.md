@@ -24,6 +24,18 @@ explicitly excluded to avoid target leakage.
 
 ---
 
+## Technologies Used
+
+- Python
+- Jupyter Notebook / JupyterLab
+- Pandas
+- NumPy
+- Matplotlib
+- Seaborn
+- Scikit-learn
+
+---
+
 ## Dataset
 
 - **File:** `student_data.csv` (not modified at any point)
@@ -46,11 +58,11 @@ explicitly excluded to avoid target leakage.
    ```
 3. **Launch the notebook:**
    ```bash
-   jupyter notebook student_performance_analysis.ipynb
+   jupyter notebook ShitalPradhan_StudentPerformanceAnalysis.ipynb
    ```
    or
    ```bash
-   jupyter lab student_performance_analysis.ipynb
+   jupyter lab ShitalPradhan_StudentPerformanceAnalysis.ipynb
    ```
 4. **Run all cells** from top to bottom (Kernel → Restart & Run All).
 
@@ -66,7 +78,7 @@ explicitly excluded to avoid target leakage.
 | `ShitalPradhan_StudentPerformanceAnalysis.ipynb` | Main analysis notebook |
 | `requirements.txt` | Reproducible environment specification |
 | `README.md` | Project overview and setup guide (this file) |
-| `report.md` | Written project report |
+| `ShitalPradhan_ProjectReport.docx` | Written project report |
 | `student-performance-plan.md` | Approved project plan |
 | `chart1_g3_distribution.png` | Chart — Distribution of Final Grade (G3) |
 | `chart2_failures_vs_g3.png` | Chart — G3 by Number of Prior Failures |
@@ -81,7 +93,7 @@ explicitly excluded to avoid target leakage.
 ## How to Read the Results
 
 - Run the notebook to reproduce all statistics, charts, and model evaluations.
-- Read `report.md` for the written narrative of findings and recommendations.
+- Read `ShitalPradhan_ProjectReport.docx` for the written narrative of findings and recommendations.
 - Charts are saved automatically to the `figures/` folder during the notebook run.
 
 ---
